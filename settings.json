@@ -1,0 +1,73 @@
+{
+  // User interface configs
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 0,
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#FF7042",
+    "list.activeSelectionForeground": "#FF7042",
+    "list.inactiveSelectionForeground": "#FF7042",
+    "list.highlightForeground": "#FF7042",
+    "scrollbarSlider.activeBackground": "#FF704250",
+    "editorSuggestWidget.highlightForeground": "#FF7042",
+    "textLink.foreground": "#FF7042",
+    "progressBar.background": "#FF7042",
+    "pickerGroup.foreground": "#FF7042",
+    "tab.activeBorder": "#FF7042",
+    "notificationLink.foreground": "#FF7042",
+    "editorWidget.resizeBorder": "#FF7042",
+    "editorWidget.border": "#FF7042",
+    "settings.modifiedItemIndicator": "#FF7042",
+    "settings.headerForeground": "#FF7042",
+    "panelTitle.activeBorder": "#FF7042",
+    "breadcrumb.activeSelectionForeground": "#FF7042",
+    "menu.selectionForeground": "#FF7042",
+    "menubar.selectionForeground": "#FF7042",
+    "peekViewEditor.background": "#2D2A2E",
+    "peekView.border": "#E26365"
+  },
+
+  // Text editor interface configs
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+
+  // Terminal interface configs
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+
+  // Debug console interface configs
+  "debug.console.fontSize": 14,
+
+  // Git configs
+  "git.enableSmartCommit": true,
+
+  "files.autoSave": "afterDelay",
+  "editor.fontWeight": "100",
+  "prettier.singleQuote": true,
+  "prettier.tslintIntegration": true,
+  "editor.minimap.renderCharacters": false,
+  "workbench.editor.openPositioning": "left",
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "prettier.semi": false,
+  "python.jediEnabled": false,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.cache": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/*.pyc": true
+  },
+  "python.linting.mypyEnabled": false,
+  "python.linting.pep8Enabled": false,
+  "python.linting.pylintEnabled": false,
+  "editor.minimap.enabled": false
+}
