@@ -310,5 +310,9 @@
   {
     "key": "ctrl+cmd+left",
     "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "findJump.activate"
   }
 ]
